@@ -7,9 +7,3 @@ def puissance(a, b):
 
     return a ** b
 
-
-if __name__ == "__main__":
-
-    print(puissance(2, 3))
-    print(puissance(5, 0))
-    print(puissance(3, 2))
