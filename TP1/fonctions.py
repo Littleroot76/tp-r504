@@ -1,5 +1,4 @@
 def puissance(a, b):
-
     if not type(a) is int:
         raise TypeError("Only integers are allowed")
     if not type(b) is int:
@@ -8,4 +7,9 @@ def puissance(a, b):
     if b < 0:
         raise ValueError("L'exposant doit etre positif ou nul (b < 0 est indefini ici)")
 
-    return a ** b
+    resultat = 1
+    for i in range(b):
+        resultat = resultat * a
+
+    return resultat
+
