@@ -1,0 +1,13 @@
+HTTP/1.1 403 Forbidden
+Date: Mon, 05 Oct 2026 11:51:36 GMT
+Content-Type: text/plain; charset=UTF-8
+Content-Length: 17
+Connection: close
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+X-Frame-Options: SAMEORIGIN
+Server: cloudflare
+CF-RAY: a45c3723d8b0d10f-CDG
+
+error code: 1003
